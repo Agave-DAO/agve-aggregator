@@ -1,0 +1,13 @@
+{
+  "name": "Agve-aggregator",
+  "author": "Agave-DAO",
+  "description": "Agave voting aggregator App",
+  "details_url": "/meta/details.md",
+  "source_url": "https://<placeholder-repository-url>",
+  "icons": [
+    {
+      "src": "/meta/icon.svg",
+      "sizes": "56x56"
+    }
+  ]
+}

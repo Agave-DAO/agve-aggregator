@@ -1,0 +1,49 @@
+{
+  "roles": [
+    {
+      "name": "Add new power sources",
+      "id": "ADD_POWER_SOURCE_ROLE",
+      "params": [
+        "Source address",
+        "Source weight"
+      ]
+    },
+    {
+      "name": "Manage power sources",
+      "id": "MANAGE_POWER_SOURCE_ROLE ",
+      "params": [
+        "Enabling source"
+      ]
+    },
+    {
+      "name": "Manage power source weights",
+      "id": "MANAGE_WEIGHTS_ROLE",
+      "params": [
+        "New weight",
+        "Old weight"
+      ]
+    }
+  ],
+  "environments": {
+    "default": {
+      "appName": "agve-aggregator.open.aragonpm.eth",
+      "network": "rpc"
+    },
+    "rinkeby": {
+      "registry": "0x98df287b6c145399aaa709692c8d308357bc085d",
+      "appName": "agve-aggregator.open.aragonpm.eth",
+      "network": "rinkeby"
+    },
+    "xdai": {
+      "registry": "0xaafca6b0c89521752e559650206d7c925fd0e530",
+      "appName": "agve-aggregator.open.aragonpm.eth",
+      "network": "xdai"
+    },
+    "staging": {
+      "registry": "0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939",
+      "appName": "agve-aggregator.1hive.aragonpm.eth",
+      "network": "rinkeby"
+    }
+  },
+  "path": "contracts/VotingAggregator.sol"
+}
